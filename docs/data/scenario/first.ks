@@ -1,45 +1,93 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="激闘！竜王"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「激闘！竜王」[l][r]
 
-メロスは激怒した。[l][r]
+[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+[bg storage=4.jpg time=200]
 
-(中略)[l][r]
+はるか昔、突如現れた竜王によって世界は闇に包まれた。[r]
+いたるところにモンスターたちが現れ、人々の生活を脅かしていた。[l][r]
+そのとき、一人の勇者が立ち上がった。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+[bg storage=yuusya.jpg time=200]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
-[s]
+勇者は広大な平原を超え...[l][r]
 
-*tag_sleep
+[bg storage=2.jpg time=200]
+
+魑魅魍魎であふれかえる森を超え...[l][r]
+
+[bg storage=3.jpg time=200]
+
+強敵だらけの竜王の城をぬけて...[l][r]
+
+[bg storage=5.jpg time=200]
+
+ついに竜王の玉座にたどり着いた...
+
+[bg storage=1.jpg time=200]
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+くく、よく来たな、愚かな勇者よ...[l][r]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+[bg storage=ryuuou.jpg time=200]
+
+竜王が現れた！[l][r]
+勇者はどうする？[l][r]
+
+[link target=*tag_runaway] →逃げる [endlink][r]
+[link target=*tag_attack] →攻撃 [endlink][r]
+[link target=*tag_magic] →呪文 [endlink][r]
+[s]
+
+*tag_runaway
+
+[cm]
+
+
+世界は竜王の手に落ちた...[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_attack
 
-[bg storage=run.jpg time=500]
+[bg storage=6.jpg time=200]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+
+勇者は健闘した。[l][r]
+しかし、竜王の実力はそれ以上のものであった...[l][r]
+勇者は勝てないことを悟り、竜王を道連れに自らを封印した...[l][r]
+世界に平和が訪れた...[l][r]
+
+【 NORMAL END 】[l][cm]
+
+[jump target=*start]
+
+*tag_magic
+
+[bg storage=6.jpg time=200]
+
+[cm]
+
+勇者の呪文は竜王の弱点だった！！！[l][r]
+「おのれ勇者め...！覚えておけ...!」[l][r]
+竜王は消え去った...[l][r]
+
+
+世界に平和が訪れた！[l][r]
+勇者の活躍は後世にまで受け継がれることとなった。[l][r]
+
+[bg storage=7.jpg time=200]
 
 【 GOOD END 】[l][cm]
 
